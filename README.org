@@ -1,0 +1,18 @@
+#+TITLE: vscode.d
+
+* Installation
+On Linux
+
+Install [[https://marketplace.visualstudio.com/items?itemName=bodil.init-script][Init Script]] extension
+#+BEGIN_EXAMPLE
+code --install-extension bodil.init-script
+#+END_EXAMPLE
+
+Install vscode.d
+#+BEGIN_EXAMPLE
+git clone https://github.com/AloisJanicek/vscode.d.git ~/.config/Code/User
+cd ~/.config/Code/User
+npm install
+#+END_EXAMPLE
+
+Open vscode and watch magic happen
