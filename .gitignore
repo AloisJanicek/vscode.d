@@ -1,0 +1,5 @@
+/globalStorage/
+/node_modules/
+/ts_compiled/
+/workspaceStorage/
+/settings.json
