@@ -193,7 +193,7 @@ export function init(context: vscode.ExtensionContext) {
         },
         {
             key: "ctrl+p",
-	        command: "-workbench.action.quickOpen"
+            command: "-workbench.action.quickOpen"
         },
         {
             key: "ctrl+l",
