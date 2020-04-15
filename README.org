@@ -16,3 +16,8 @@ npm install
 #+END_EXAMPLE
 
 Open vscode and watch magic happen
+
+* Credits and similar projects
+vscode.d is built using [[https://github.com/bodil][Bodil Stokke]]'s awesome packages [[https://github.com/bodil/vscode-init-script][vscode-init-script]] and
+[[https://github.com/bodil/vscode-use-package][vscode-use-package]] and steals ideas and snippets from existing vscode configs
+like [[https://gist.github.com/bodil/ad8019472d83777ac667dbd89299d6c1][bodil/init.ts]] and [[https://github.com/Brettm12345/vscode-config][Brettm12345/vscode-config]].
