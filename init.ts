@@ -163,6 +163,12 @@ export function init(context: vscode.ExtensionContext) {
         }
     });
 
+    // TSLint
+    // https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
+    // TSLint support for Visual Studio Code
+    usePackage("ms-vscode.vscode-typescript-tslint-plugin", {
+    });
+
     // Dash
     // https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash
     // Dash, Zeal and Velocity integration in Visual Studio Code
