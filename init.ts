@@ -9,7 +9,24 @@ export function init(context: vscode.ExtensionContext) {
         "less.validate": false,
         "scss.validate": false,
         "typescript.preferences.quoteStyle": "single",
-
+        "[javascript]": {
+            "editor.formatOnSave": false
+        },
+        "[typescript]": {
+            "editor.formatOnSave": false
+        },
+        "[css]": {
+            "editor.formatOnSave": false
+        },
+        "[scss]": {
+            "editor.formatOnSave": false
+        },
+        "[javascriptreact]": {
+            "editor.formatOnSave": false
+        },
+        "[typescriptreact]": {
+            "editor.formatOnSave": false
+        },
         "breadcrumbs.enabled": false,
         "git.path": "C:\\BIN\\git.exe",
         "update.showReleaseNotes": false,
