@@ -142,7 +142,12 @@ export function init(context: vscode.ExtensionContext) {
     // A customizable extension for colorizing matching brackets
     usePackage("CoenraadS.bracket-pair-colorizer-2", {
         config: {
-            "colorMode": "Consecutive"
+            "colorMode": "Consecutive",
+            "colors": [
+                "#C586C0",
+                "#CE9178",
+                "#6A9955",
+            ],
         }
     });
 
@@ -384,9 +389,16 @@ export function init(context: vscode.ExtensionContext) {
     // Rainbow Tags
     // https://marketplace.visualstudio.com/items?itemName=voldemortensen.rainbow-tags
     // Inteligently colors all tag pairs in your file with a smart blacklist containing meta, self-closing and non-paired tags - also functions with custom tags!
-    usePackage("voldemortensen.rainbow-tags", {
-
-    });
+    // usePackage("voldemortensen.rainbow-tags", {
+    //     scope: "rainbowTags",
+    //     config: {
+    //         "colors": [
+    //             "#C586C0",
+    //             "#CE9178",
+    //             "#6A9955"
+    //         ]
+    //     }
+    // });
 
     // Ansible
     // https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible
